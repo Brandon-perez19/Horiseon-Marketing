@@ -14,8 +14,8 @@ https://brandon-perez19.github.io/Horiseon-Marketing/
 Made with ❤️️ by Horiseon
 
 ## Screenshot of Application
-![](./assets/images/screen-shot-1)
-![](./assets/images/screen-shot-2)
+![](images/screen-shot-1)
+![](images/screen-shot-2)
 
 
 ### © 2019 Horiseon Social Solution Services, Inc.
