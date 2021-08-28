@@ -8,7 +8,7 @@ A website that offers help with Brand management
 * CSS
 
 ## Website
-
+https://brandon-perez19.github.io/Horiseon-Marketing/
 
 ## Contribution
 Made with ❤️️ by Horiseon
