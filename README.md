@@ -16,6 +16,7 @@ Made with ❤️️ by Horiseon.
 ## Screenshot of Application
 
 ![](assets/images/Screen-Shot-2.png)
+![](assets/images/Screen-Shot-1.png)
 
 
 ### © 2019 Horiseon Social Solution Services, Inc.
