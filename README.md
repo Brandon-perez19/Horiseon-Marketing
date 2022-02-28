@@ -11,7 +11,7 @@ A website that offers help with Brand management
 https://brandon-perez19.github.io/Horiseon-Marketing/
 
 ## Contribution
-Made with ❤️️ by Horiseon
+Made with ❤️️ by Horiseon.
 
 ## Screenshot of Application
 
