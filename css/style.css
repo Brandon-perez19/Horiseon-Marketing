@@ -3,10 +3,15 @@
     padding: 0;
     margin: 0;
 }
+/* 
+    Applies box-sizing of border-box to all elements, ensuring padding and border are included in the element's width and height.
+    Resets padding and margin to 0 for all elements to create a consistent baseline.
+*/
 
 body {
     background-color: #d9dcd6;
 }
+/* Sets the background color of the entire page to a light greyish-green (#d9dcd6). */
 
 header {
     padding: 20px;
@@ -14,11 +19,19 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
+/* 
+    Styles the header section with padding, sets the font family, 
+    background color (dark blue), and text color (white).
+*/
 
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
+/* 
+    Styles the main heading (h1) inside the header, making it display as an inline-block element 
+    and setting a large font size of 48px.
+*/
 
 header nav {
     padding-top: 15px;
@@ -27,53 +40,86 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+/* 
+    Styles the navigation inside the header, adding padding to the top and margin to the right, 
+    floating the nav to the right. It also sets the font family and font size.
+*/
 
 header ul {
     list-style-type: none;
 }
+/* Removes the default bullet points from the navigation list items. */
 
 header ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* 
+    Makes the list items display horizontally by setting them as inline-block elements 
+    and adds space between them using a left margin of 25px.
+*/
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/* 
+    Styles all anchor links with a white color and removes the default underline.
+*/
 
 p {
     font-size: 16px;
 }
+/* Sets the font size for all paragraphs to 16px. */
 
 .float-left {
     float: left;
     margin-right: 25px;
 }
+/* 
+    Floats elements to the left and adds a right margin of 25px,
+    used for images or other content that needs to wrap around text.
+*/
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
+/* 
+    Floats elements to the right and adds a left margin of 25px, 
+    similar to float-left but on the opposite side.
+*/
 
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../assets/images/digital-marketing-meeting.jpg") ;
+    background-image: url("../assets/images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
+/* 
+    Styles the hero section with a fixed height of 800px and full width. 
+    Sets a background image with full coverage and centers the image within the section.
+*/
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/* 
+    Styles the content section with a width of 75%, makes it display inline-block 
+    (allowing it to sit next to other elements like floated ones), and adds a left margin.
+*/
 
 .seo {
     color: #d9dcd6;
 }
+/* 
+    Sets the color of elements with the 'seo' class to light greyish-green (#d9dcd6). 
+    This class is used to highlight the "SEO" part of the header.
+*/
 
 .benefits {
     margin-right: 20px;
@@ -85,56 +131,39 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* 
+    Styles the benefits section, floating it to the right, 
+    with a width of 20% and height of 100%. Sets background color to a lighter blue (#2589bd).
+    Padding and margin are used to space it from other elements, and `clear: both` ensures it doesn’t overlap floated elements.
+*/
 
-.benefit-lead {
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
+/* 
+    Styles the individual benefit sections with white text color and adds space below each one.
+*/
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+/* 
+    Centers the headings (h3) within each benefit section and adds space below them.
+*/
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* 
+    Styles the images within the benefit sections, centering them with margin auto, 
+    and restricting their maximum width to 150px.
+*/
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-#search-engine-optimization {
+#search-engine-optimization, #online-reputation-management, #social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -142,33 +171,26 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* 
+    Styles the three main articles (SEO, Reputation Management, Social Media Marketing) 
+    with a consistent layout: margin-bottom for spacing, padding inside the box, a fixed height, 
+    a blue background color, and white text color.
+*/
 
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.card img{
+.card img {
     max-height: 200px;
 }
+/* 
+    Restricts the maximum height of images inside elements with the 'card' class to 200px.
+*/
 
 .card h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* 
+    Styles the main headings (h2) inside the cards, setting a larger font size and adding space below them.
+*/
 
 footer {
     padding: 30px;
@@ -176,7 +198,12 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+/* 
+    Styles the footer with padding, ensures it clears any floated elements, 
+    sets the font family, and centers the text.
+*/ 
 
 footer h2 {
     font-size: 20px;
 }
+/* Sets the font size for the h2 heading inside the footer to 20px. */
